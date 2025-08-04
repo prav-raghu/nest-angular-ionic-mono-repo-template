@@ -1,0 +1,5 @@
+{
+  "files": [],
+  "references": [{ "path": "./apps/backend/customer-api" }, { "path": "./common" }],
+  "extends": "./tsconfig.base.json"
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "lib": ["ES2022"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@common/*": ["common/src/*"],
+      "@scripts/*": ["scripts/*"],
+      "@infrastructure/*": ["infrastructure/*"],
+      "@auth/*": ["apps/backend/nest-angular-ionic-mono-repo-template-landscapes-api/src/auth/*"],
+      "@prisma/*": ["apps/backend/nest-angular-ionic-mono-repo-template-landscapes-api/src/prisma/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

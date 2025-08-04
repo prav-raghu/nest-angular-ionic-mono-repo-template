@@ -1,0 +1,13 @@
+# === Terraform ===
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# === Terraform Plan Outputs ===
+*.tfplan
+crash.log
+
+# === Local Environment Overrides ===
+*.tfvars
+*.tfvars.json
